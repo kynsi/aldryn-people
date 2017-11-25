@@ -2,7 +2,7 @@
 
 from __future__ import unicode_literals
 
-from django.conf.urls.defaults import *
+from django.conf.urls import url
 
 from aldryn_people.views import (
     DownloadVcardView,
